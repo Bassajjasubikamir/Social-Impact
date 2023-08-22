@@ -169,6 +169,17 @@
   height: 100vh;
 }
 
+.submitButton {
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.submitButton:hover {
+  background-color: rgba(105, 105, 202, 0.2)
+}
+.submitButton:active{
+  transform: scale(1.2);
+}
+
 @media(max-width:600px) {
   .realMain {
     flex-direction: column;
